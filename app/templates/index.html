@@ -1,3 +1,4 @@
+{% import 'macros.html' as macro%}
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,10 +6,15 @@
         {% if title %}
         <title> {{ title }}</title>
         {% else %}
-        <title> Welcome to the best Movie Review website </title>
+        <title> Welcome to the best News website </title>
         {% endif %}
     </head>
     <body>
+         
+         <h3> Breaking News</h3>
+         <ul>
+            {{ macro.displayNewsList(popular)}}
+        </ul>
 
     </body>
 </html>
