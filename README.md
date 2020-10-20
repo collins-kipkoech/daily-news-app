@@ -16,6 +16,9 @@ installation
 3. cd daily-news-app
 4. code .
 
-[MIT]
+
+Contact information Email address: collinskipkoech95@gmail.com
+
+[MIT](LICENSE.md)©
 
 
