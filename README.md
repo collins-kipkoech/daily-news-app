@@ -3,6 +3,12 @@
 Description
 Daily news app is a web based application that enables users to view news. A user can search and view a particular news.
 
+Links
+
+active link: https://collins-news-app.herokuapp.com/
+
+figma link: https://www.figma.com/file/GcgKdNMSSr6yR9U0kNxa3X/news-app?node-id=0%3A1
+
 
 screenshot
 
