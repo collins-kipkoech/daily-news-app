@@ -1,6 +1,6 @@
 from flask import render_template,request,redirect,url_for
 from . import main
-from ..request import get_news,get_news1,search_news
+from ..request import get_news,get_news1,search_news,get_sources
 from ..models import Review
 
 # Views
@@ -10,7 +10,7 @@ def index():
     '''
     View root page function that returns the index page and its data
     '''
-    sources=get_sources()
+    sources= get_sources()
     title = 'Welcome to the News website'
     search_news1 = request.args.get('news1_query')
 

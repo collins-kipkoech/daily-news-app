@@ -1,6 +1,6 @@
 class News:
     '''
-    Movie class to define news Objects
+    News class to define news Objects
     '''
 
     def __init__(self,id,title,description,image,url):
@@ -37,7 +37,7 @@ class Review:
         response = []
 
         for review in cls.all_reviews:
-            if review.movie_id == id:
+            if review.news_id == id:
                 response.append(review)
 
         return response
